@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C675291A1148BC007B61CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C675281A1148BC007B61CA /* main.m */; };
+		14C6752C1A1148BC007B61CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C6752B1A1148BC007B61CA /* AppDelegate.m */; };
+		14C6752F1A1148BC007B61CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C6752E1A1148BC007B61CA /* ViewController.m */; };
+		14C675321A1148BC007B61CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C675301A1148BC007B61CA /* Main.storyboard */; };
+		14C675341A1148BC007B61CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C675331A1148BC007B61CA /* Images.xcassets */; };
+		14C675371A1148BC007B61CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C675351A1148BC007B61CA /* LaunchScreen.xib */; };
+		14C675431A1148BC007B61CA /* iBeagleClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C675421A1148BC007B61CA /* iBeagleClientTests.m */; };
+		14C6755E1A114948007B61CA /* BonjourBeagleConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C6754F1A114948007B61CA /* BonjourBeagleConnection.m */; };
+		14C6755F1A114948007B61CA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C675511A114948007B61CA /* GCDAsyncSocket.m */; };
+		14C675601A114948007B61CA /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C675531A114948007B61CA /* InputHandler.m */; };
+		14C675611A114948007B61CA /* KeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C675551A114948007B61CA /* KeyboardHandler.m */; };
+		14C675621A114948007B61CA /* ManualBeagleConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C675571A114948007B61CA /* ManualBeagleConnection.m */; };
+		14C675631A114948007B61CA /* MouseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C675591A114948007B61CA /* MouseHandler.m */; };
+		14C675641A114948007B61CA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C6755B1A114948007B61CA /* SettingsViewController.m */; };
+		14C675651A114948007B61CA /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C6755D1A114948007B61CA /* TouchViewController.m */; };
+		14C675691A1149D5007B61CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C675681A1149D5007B61CA /* UIKit.framework */; };
+		14C6756B1A114A3A007B61CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C6756A1A114A3A007B61CA /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14C6753D1A1148BC007B61CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14C6751B1A1148BC007B61CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C675221A1148BC007B61CA;
+			remoteInfo = iBeagleClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C675231A1148BC007B61CA /* iBeagleClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeagleClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C675271A1148BC007B61CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C675281A1148BC007B61CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14C6752A1A1148BC007B61CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14C6752B1A1148BC007B61CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14C6752D1A1148BC007B61CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14C6752E1A1148BC007B61CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14C675311A1148BC007B61CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14C675331A1148BC007B61CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14C675361A1148BC007B61CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14C6753C1A1148BC007B61CA /* iBeagleClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeagleClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C675411A1148BC007B61CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C675421A1148BC007B61CA /* iBeagleClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeagleClientTests.m; sourceTree = "<group>"; };
+		14C6754D1A114948007B61CA /* BeagleConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeagleConnection.h; sourceTree = "<group>"; };
+		14C6754E1A114948007B61CA /* BonjourBeagleConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourBeagleConnection.h; sourceTree = "<group>"; };
+		14C6754F1A114948007B61CA /* BonjourBeagleConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourBeagleConnection.m; sourceTree = "<group>"; };
+		14C675501A114948007B61CA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		14C675511A114948007B61CA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		14C675521A114948007B61CA /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		14C675531A114948007B61CA /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		14C675541A114948007B61CA /* KeyboardHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardHandler.h; sourceTree = "<group>"; };
+		14C675551A114948007B61CA /* KeyboardHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardHandler.m; sourceTree = "<group>"; };
+		14C675561A114948007B61CA /* ManualBeagleConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualBeagleConnection.h; sourceTree = "<group>"; };
+		14C675571A114948007B61CA /* ManualBeagleConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualBeagleConnection.m; sourceTree = "<group>"; };
+		14C675581A114948007B61CA /* MouseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseHandler.h; sourceTree = "<group>"; };
+		14C675591A114948007B61CA /* MouseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseHandler.m; sourceTree = "<group>"; };
+		14C6755A1A114948007B61CA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		14C6755B1A114948007B61CA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		14C6755C1A114948007B61CA /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		14C6755D1A114948007B61CA /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
+		14C675681A1149D5007B61CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14C6756A1A114A3A007B61CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C675201A1148BC007B61CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C6756B1A114A3A007B61CA /* Foundation.framework in Frameworks */,
+				14C675691A1149D5007B61CA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C675391A1148BC007B61CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C6751A1A1148BC007B61CA = {
+			isa = PBXGroup;
+			children = (
+				14C6756A1A114A3A007B61CA /* Foundation.framework */,
+				14C675681A1149D5007B61CA /* UIKit.framework */,
+				14C675251A1148BC007B61CA /* iBeagleClient */,
+				14C6753F1A1148BC007B61CA /* iBeagleClientTests */,
+				14C675241A1148BC007B61CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C675241A1148BC007B61CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C675231A1148BC007B61CA /* iBeagleClient.app */,
+				14C6753C1A1148BC007B61CA /* iBeagleClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14C675251A1148BC007B61CA /* iBeagleClient */ = {
+			isa = PBXGroup;
+			children = (
+				14C6752A1A1148BC007B61CA /* AppDelegate.h */,
+				14C6752B1A1148BC007B61CA /* AppDelegate.m */,
+				14C6755A1A114948007B61CA /* SettingsViewController.h */,
+				14C6755B1A114948007B61CA /* SettingsViewController.m */,
+				14C6755C1A114948007B61CA /* TouchViewController.h */,
+				14C6755D1A114948007B61CA /* TouchViewController.m */,
+				14C6752D1A1148BC007B61CA /* ViewController.h */,
+				14C6752E1A1148BC007B61CA /* ViewController.m */,
+				14C675301A1148BC007B61CA /* Main.storyboard */,
+				14C675331A1148BC007B61CA /* Images.xcassets */,
+				14C675351A1148BC007B61CA /* LaunchScreen.xib */,
+				14C675661A114963007B61CA /* Network */,
+				14C675671A11498F007B61CA /* Input */,
+				14C675261A1148BC007B61CA /* Supporting Files */,
+			);
+			path = iBeagleClient;
+			sourceTree = "<group>";
+		};
+		14C675261A1148BC007B61CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14C675271A1148BC007B61CA /* Info.plist */,
+				14C675281A1148BC007B61CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14C6753F1A1148BC007B61CA /* iBeagleClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				14C675421A1148BC007B61CA /* iBeagleClientTests.m */,
+				14C675401A1148BC007B61CA /* Supporting Files */,
+			);
+			path = iBeagleClientTests;
+			sourceTree = "<group>";
+		};
+		14C675401A1148BC007B61CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14C675411A1148BC007B61CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14C675661A114963007B61CA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				14C675501A114948007B61CA /* GCDAsyncSocket.h */,
+				14C675511A114948007B61CA /* GCDAsyncSocket.m */,
+				14C6754D1A114948007B61CA /* BeagleConnection.h */,
+				14C6754E1A114948007B61CA /* BonjourBeagleConnection.h */,
+				14C6754F1A114948007B61CA /* BonjourBeagleConnection.m */,
+				14C675561A114948007B61CA /* ManualBeagleConnection.h */,
+				14C675571A114948007B61CA /* ManualBeagleConnection.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		14C675671A11498F007B61CA /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				14C675521A114948007B61CA /* InputHandler.h */,
+				14C675531A114948007B61CA /* InputHandler.m */,
+				14C675541A114948007B61CA /* KeyboardHandler.h */,
+				14C675551A114948007B61CA /* KeyboardHandler.m */,
+				14C675581A114948007B61CA /* MouseHandler.h */,
+				14C675591A114948007B61CA /* MouseHandler.m */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C675221A1148BC007B61CA /* iBeagleClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C675461A1148BC007B61CA /* Build configuration list for PBXNativeTarget "iBeagleClient" */;
+			buildPhases = (
+				14C6751F1A1148BC007B61CA /* Sources */,
+				14C675201A1148BC007B61CA /* Frameworks */,
+				14C675211A1148BC007B61CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBeagleClient;
+			productName = iBeagleClient;
+			productReference = 14C675231A1148BC007B61CA /* iBeagleClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14C6753B1A1148BC007B61CA /* iBeagleClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C675491A1148BC007B61CA /* Build configuration list for PBXNativeTarget "iBeagleClientTests" */;
+			buildPhases = (
+				14C675381A1148BC007B61CA /* Sources */,
+				14C675391A1148BC007B61CA /* Frameworks */,
+				14C6753A1A1148BC007B61CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C6753E1A1148BC007B61CA /* PBXTargetDependency */,
+			);
+			name = iBeagleClientTests;
+			productName = iBeagleClientTests;
+			productReference = 14C6753C1A1148BC007B61CA /* iBeagleClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C6751B1A1148BC007B61CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sean McLemon";
+				TargetAttributes = {
+					14C675221A1148BC007B61CA = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 7GPCH6GKBL;
+					};
+					14C6753B1A1148BC007B61CA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 14C675221A1148BC007B61CA;
+					};
+				};
+			};
+			buildConfigurationList = 14C6751E1A1148BC007B61CA /* Build configuration list for PBXProject "iBeagleClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14C6751A1A1148BC007B61CA;
+			productRefGroup = 14C675241A1148BC007B61CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C675221A1148BC007B61CA /* iBeagleClient */,
+				14C6753B1A1148BC007B61CA /* iBeagleClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C675211A1148BC007B61CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C675321A1148BC007B61CA /* Main.storyboard in Resources */,
+				14C675371A1148BC007B61CA /* LaunchScreen.xib in Resources */,
+				14C675341A1148BC007B61CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C6753A1A1148BC007B61CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C6751F1A1148BC007B61CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C6752F1A1148BC007B61CA /* ViewController.m in Sources */,
+				14C675621A114948007B61CA /* ManualBeagleConnection.m in Sources */,
+				14C675651A114948007B61CA /* TouchViewController.m in Sources */,
+				14C675601A114948007B61CA /* InputHandler.m in Sources */,
+				14C6755F1A114948007B61CA /* GCDAsyncSocket.m in Sources */,
+				14C6752C1A1148BC007B61CA /* AppDelegate.m in Sources */,
+				14C675291A1148BC007B61CA /* main.m in Sources */,
+				14C6755E1A114948007B61CA /* BonjourBeagleConnection.m in Sources */,
+				14C675641A114948007B61CA /* SettingsViewController.m in Sources */,
+				14C675611A114948007B61CA /* KeyboardHandler.m in Sources */,
+				14C675631A114948007B61CA /* MouseHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C675381A1148BC007B61CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C675431A1148BC007B61CA /* iBeagleClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14C6753E1A1148BC007B61CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14C675221A1148BC007B61CA /* iBeagleClient */;
+			targetProxy = 14C6753D1A1148BC007B61CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14C675301A1148BC007B61CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C675311A1148BC007B61CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14C675351A1148BC007B61CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C675361A1148BC007B61CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14C675441A1148BC007B61CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14C675451A1148BC007B61CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14C675471A1148BC007B61CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iBeagleClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14C675481A1148BC007B61CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iBeagleClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14C6754A1A1148BC007B61CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iBeagleClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeagleClient.app/iBeagleClient";
+			};
+			name = Debug;
+		};
+		14C6754B1A1148BC007B61CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iBeagleClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBeagleClient.app/iBeagleClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C6751E1A1148BC007B61CA /* Build configuration list for PBXProject "iBeagleClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C675441A1148BC007B61CA /* Debug */,
+				14C675451A1148BC007B61CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C675461A1148BC007B61CA /* Build configuration list for PBXNativeTarget "iBeagleClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C675471A1148BC007B61CA /* Debug */,
+				14C675481A1148BC007B61CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14C675491A1148BC007B61CA /* Build configuration list for PBXNativeTarget "iBeagleClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C6754A1A1148BC007B61CA /* Debug */,
+				14C6754B1A1148BC007B61CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14C6751B1A1148BC007B61CA /* Project object */;
+}
