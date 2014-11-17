@@ -1,3 +1,5 @@
+# iBeagle #
+
 I thought it would be an interesting exercise to use my iPhone as an input device instead of a physical mouse and keyboard. It turns out it's pretty simple, thanks to Tuomas Räsänen's cool python-uinput module together with bonjour for simple device discovery.
 
 The "server" running on the Beagle and the iOS "client" (bad metaphors, sorry) can be retrieved via git:
